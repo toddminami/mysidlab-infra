@@ -12,7 +12,7 @@
       timezone:
         name: "{{ tz }}"
     - name: Display timezone
-      shell date +%Z
+      shell: date +%Z
     - name: Set hostname
       hostname:
         name: "{{ hostname }}"
